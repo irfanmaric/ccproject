@@ -91,7 +91,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.4"
         android:hint="Datum rodjenja"
-        android:inputType="date"
+        android:inputType="datetime"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:textColorHint="@color/textColor"
@@ -103,6 +103,7 @@
         android:layout_weight="0.2"/>
 
     <Button
+        android:id="@+id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"

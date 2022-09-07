@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".ui.user.UserFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1.4">
+
+
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@color/white"
+            android:id="@+id/ci_userProfilePhoto"
+            android:layout_gravity="bottom|center_horizontal" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_add_photo_alternate_24"
+            android:layout_gravity="top|right"/>
+
+    </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:text="Arnel Maric"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/baseColor"
+            android:fontFamily="@font/sansbold"/>
+
+        <TextView
+            android:id="@+id/tv_phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:text="061 969 100"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_below="@+id/tv_username"
+            android:textAlignment="center"
+            android:textColor="@color/baseColor"
+            android:fontFamily="@font/sansbold"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:background="@drawable/roundframe"
+              android:weightSum="3"
+              android:orientation="vertical"
+              android:layout_margin="20dp">
+
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="0.7"
+                  android:text="Bodovi"
+                  android:fontFamily="@font/sansbold"
+                  android:textColor="@color/baseColor"
+                  android:textAlignment="center"
+                  android:textSize="20sp"
+                  android:layout_gravity="center"
+                  android:gravity="center"/>
+
+              <ImageView
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1.6"
+                  android:src="@drawable/ic_baseline_stars_24"/>
+
+              <TextView
+                  android:id="@+id/tv_points"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="0.5"
+                  android:text="10"
+                  android:fontFamily="@font/sansbold"
+                  android:textColor="@color/baseColor"
+                  android:textAlignment="center"
+                  android:textSize="20sp"
+                  android:layout_gravity="center"
+                  android:gravity="center"/>
+
+          </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/roundframe"
+                android:weightSum="3"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:text="Termini"
+                    android:fontFamily="@font/sansbold"
+                    android:textColor="@color/baseColor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:src="@drawable/ic_baseline_calendar_today_24"/>
+
+                <TextView
+                    android:id="@+id/tv_app_counter"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="10"
+                    android:fontFamily="@font/sansbold"
+                    android:textColor="@color/baseColor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/roundframe"
+                android:layout_margin="20dp"
+                android:weightSum="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:text="Info"
+                    android:fontFamily="@font/sansbold"
+                    android:textColor="@color/baseColor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:src="@drawable/ic_baseline_info_24"/>
+
+                <TextView
+                    android:id="@+id/tv_app_done_counter"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="10"
+                    android:visibility="gone"
+                    android:fontFamily="@font/sansbold"
+                    android:textColor="@color/baseColor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/roundframe"
+                android:layout_margin="20dp"
+                android:weightSum="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:text="Odjavite se"
+                    android:fontFamily="@font/sansbold"
+                    android:textColor="@color/baseColor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.6"
+                    android:src="@drawable/ic_baseline_logout_24"/>
+
+                <TextView
+                    android:id="@+id/tv_app_error_counter"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:text="10"
+                    android:fontFamily="@font/sansbold"
+                    android:textColor="@color/baseColor"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:gravity="center"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    
+
+
+
+
+</LinearLayout>

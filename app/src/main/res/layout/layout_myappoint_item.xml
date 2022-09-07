@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="textEnd"
+        android:text="12/01/2021"
+        android:fontFamily="@font/playsant"
+        android:textColor="@color/background"
+        android:id="@+id/appoint_date"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="Ordinacija"
+        android:fontFamily="@font/playsant"
+        android:textColor="@color/background"
+        android:id="@+id/appoint_branch"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="08:30 - 09-30"
+        android:fontFamily="@font/sansbold"
+        android:textColor="@color/background"
+        android:id="@+id/appoint_time"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:text="Odobreno"
+        android:fontFamily="@font/sansbold"
+        android:textColor="@color/baseColor"
+        android:id="@+id/appoint_status"/>
+
+
+</LinearLayout>

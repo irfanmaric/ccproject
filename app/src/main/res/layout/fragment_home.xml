@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/tv_options"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Odaberite kategoriju"
+        android:textColor="@color/background"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/playsant"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/tv_options"
+        android:id="@+id/recycler_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

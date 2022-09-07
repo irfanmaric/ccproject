@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "13725238311",
+    "project_id": "virtualwaitingroom-eb0f2",
+    "storage_bucket": "virtualwaitingroom-eb0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13725238311:android:14a695683c307e843cba02",
+        "android_client_info": {
+          "package_name": "com.madev.virtualwaitingroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13725238311-sqdthpnh3btfmva8r5mp51cfv2bs988u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.madev.virtualwaitingroom",
+            "certificate_hash": "f5cfa42704e3f379433a1fffacebb52837a82f54"
+          }
+        },
+        {
+          "client_id": "13725238311-b6g5echbvsukotat5bthcfft56covech.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP4OV-Ssg2JmwbiAaefvooEVZuqrr-Dy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13725238311-b6g5echbvsukotat5bthcfft56covech.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
